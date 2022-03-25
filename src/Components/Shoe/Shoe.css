@@ -11,28 +11,17 @@
 .cart-container{
     width: 250px;
     height: 300px;
-    background-color: #95A0A7;
+    background-color: #c1d1db;
     border: none;
     margin-top: 100px;
     border-radius: 8px;
     overflow: hidden;
 }
-.btn-cart{
-    width: 100%;
-    background: #FFE0B3;
-    border: none;
-    border-radius: 0 0 8px 8px;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.btn-cart .btn-text{
-    margin-right: 5px;
-}
-.btn-cart:hover{
-    background-color: orange;
+.btn{
+    background-color: #95A0A7;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 600px) {
     .products-container{

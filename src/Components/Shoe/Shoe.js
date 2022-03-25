@@ -37,8 +37,8 @@ const Shoe = () => {
                 {cart.map((item) => (
                     <h4>Name: {item.name}</h4>
                 ))}
-                <button>CHOOSE 1 FOR ME</button>
-                <button>CHOOSE AGAIN</button>
+                <button className='btn'>CHOOSE 1 FOR ME</button>
+                <button className='btn'>CHOOSE AGAIN</button>
             </div>
         </div>
     );
