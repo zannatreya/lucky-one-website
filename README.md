@@ -1,6 +1,7 @@
 # Getting Started with Emazon-shop
 
 This project was bootstrapped with [Emazon shop github link](https://github.com/Programming-Hero-Web-Course4/lucky-one-zannatreya).
+
 This project was bootstrapped with [Emazon shop live site link](https://emazon-shoe-shop.netlify.app/).
 
 ## Available Scripts
