@@ -8,6 +8,16 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Shoe></Shoe>
+      <div className='card-container'>
+        <div className='card'>
+          <h1>How react works?</h1>
+
+        </div>
+        <div className='card'>
+          <h1>How react works?</h1>
+
+        </div>
+      </div>
     </div>
   );
 }
