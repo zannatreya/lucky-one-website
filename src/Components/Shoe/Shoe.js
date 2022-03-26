@@ -28,8 +28,11 @@ const Shoe = () => {
 
     const choseOneForMe = (product) => {
         const newCart = [...cart, product];
-        let selectedProduct = newCart[Math.floor(Math.random() * newCart.length)];
+        let selectedProduct = newCart[Math.floor(Math.random(3) * (3 - 0 + 0) + 0)];
         console.log(selectedProduct.name);
+        document.getElementById("selectedName").innerHTML = `
+        <span>${selectedProduct.name}</span>
+        `;
     }
     return (
         <div className='shoe-container'>
@@ -53,9 +56,9 @@ const Shoe = () => {
                 {cart.map((item) => (
                     <h4>Name: {item.name}</h4>
                 ))}
+                <p id="selectedName"></p>
 
                 <button onClick={choseOneForMe} className='btn'>CHOOSE 1 FOR ME</button>
-                <p>{selectedProduct.name}</p>
 
                 <button onClick={choseAgain} className='btn'>
                     CHOOSE AGAIN</button>
