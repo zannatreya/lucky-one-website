@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Shoe from './Components/Shoe/Shoe';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 
 function App() {
   return (
@@ -37,6 +39,10 @@ function App() {
 
         </div>
       </div>
+      <MessengerCustomerChat
+    pageId="107012672117270"
+    appId="586701279704824"
+  />,
     </div>
   );
 }

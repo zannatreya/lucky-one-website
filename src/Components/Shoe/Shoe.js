@@ -33,6 +33,8 @@ const Shoe = () => {
         document.getElementById("selectedName").innerHTML = `
         <span>${selectedProduct.name}</span>
         `;
+        // const random = newCart[Math.floor(Math.random() * cart.length)];
+        // setCart([random]);
     }
     return (
         <div className='shoe-container'>
